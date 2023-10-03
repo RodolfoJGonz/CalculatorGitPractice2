@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Operations.cpp" />
     <ClCompile Include="src\CalculatorMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Operations.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

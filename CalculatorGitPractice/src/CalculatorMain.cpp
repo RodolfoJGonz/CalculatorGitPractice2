@@ -1,10 +1,10 @@
 #include <iostream>
-
+#include "Operations.h"
 
 int main() {
-	std::cout << "Hello World" << '\n';
+	Operations calculator;
 
-	//Try pushing this to github
+	std::cout << calculator.addition(1, 2) <<'\n';
 
 	return 0;
 }
